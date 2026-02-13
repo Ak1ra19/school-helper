@@ -127,7 +127,7 @@ export function Dashboard() {
                             {mode === 'work' ? 'Жұмыс уақыты' : 'Демалыс'}
                         </div>
 
-                        <div className="text-7xl font-bold text-gray-900 font-mono">
+                        <div className="text-5xl md:text-7xl font-bold text-gray-900 font-mono">
                             {String(timerMinutes).padStart(2, '0')}:{String(timerSeconds).padStart(2, '0')}
                         </div>
 
